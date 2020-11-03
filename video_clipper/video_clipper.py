@@ -39,4 +39,4 @@ if __name__ == '__main__':
     mp4_files = [join(data_path, f) for f in listdir(data_path) if isfile(
         join(data_path, f)) and splitext(f)[1].lower() == '.mp4']
     for f in mp4_files:
-        clip_video(f, 2)
+        clip_video(f, 5)
