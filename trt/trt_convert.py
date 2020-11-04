@@ -1,5 +1,6 @@
 import torch
 import torchvision
+import tensorrt
 from torch2trt import torch2trt
 
 model = torchvision.models.resnet18(pretrained=False)
